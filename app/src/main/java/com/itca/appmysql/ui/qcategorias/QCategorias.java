@@ -107,7 +107,7 @@ public class QCategorias extends Fragment {
             @Override
             public void onClick(View view) {
                 //String idcategoria = etid.getText().toString();
-                buscarCategoria("https://carlosminerosis11a.000webhostapp.com/ws/buscarCategoriaCodigo.php?id="+etid.getText() + "");
+                buscarCategoria("https://manse910.000webhostapp.com/WS/buscarCategoriaCodigo.php?id="+etid.getText() + "");
 
             }
         }));
@@ -160,7 +160,7 @@ public class QCategorias extends Fragment {
 
     private void Eliminarcat(final Context context, final int id_categoria) {
 
-        String url = "https://carlosminerosis11a.000webhostapp.com/ws/eliminar.php";
+        String url = "https://manse910.000webhostapp.com/WS/eliminar.php";
         StringRequest request = new StringRequest(Request.Method.POST,url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -209,7 +209,7 @@ public class QCategorias extends Fragment {
 
 
     private void Actucategoria(final Context context, final int id_categoria, final String nom_categoria, final int estado_categoria) {
-        String url = "https://carlosminerosis11a.000webhostapp.com/ws/actualizar.php";
+        String url = "https://manse910.000webhostapp.com/WS/actualizar.php";
         StringRequest request = new StringRequest(Request.Method.POST,url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
