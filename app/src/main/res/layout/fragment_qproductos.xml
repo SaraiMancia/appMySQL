@@ -3,18 +3,199 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ic_launcher_background"
+    android:background="@color/white"
     tools:context=".ui.qproductos.Qproductos">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Consuta productos"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consulta de Producto"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/inventario"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etidpro"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/ic_key"
+                android:drawablePadding="5dp"
+                android:hint="ID"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etnombrepro"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/ic_assignment"
+                android:drawablePadding="5dp"
+                android:hint="Ingrese nombre del producto"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etdespro"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/ic_porcentaje"
+                android:drawablePadding="5dp"
+                android:hint="Ingrese descuento producto"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ets"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/ic_library"
+                android:drawablePadding="5dp"
+                android:hint="Stock"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etpreciopro"
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/ic_monetization"
+                android:drawablePadding="5dp"
+                android:hint="Ingrese el precio producto"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etunidadpro"
+                android:layout_width="323dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/ic_balance"
+                android:drawablePadding="5dp"
+                android:hint="Ingrese unidad medida"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/estadopro"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/ic_categorias"
+                android:drawablePadding="5dp"
+                android:hint="Estado producto"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/fecapro"
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/ic_calendar"
+                android:drawablePadding="5dp"
+                android:hint="Fecha de Registro"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnconp"
+
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#FF9800"
+                android:drawableStart="@drawable/ic_save"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Consultar Producto"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnelimi"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#FF9800"
+                android:drawableStart="@drawable/ic_delete"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Eliminar Producto"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvrespuesta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Respuesta servidor "
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>
