@@ -13,6 +13,7 @@
         <entry key="..\:/Users/ITCA/AndroidStudioProjects/appMySQL/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
         <entry key="..\:/Users/ITCA/AndroidStudioProjects/appMySQL/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
         <entry key="..\:/Users/ITCA/AndroidStudioProjects/appMySQL/app/src/main/res/menu/main.xml" value="0.25" />
+        <entry key="..\:/Users/Rosita/AndroidStudioProjects/appMySQL/app/src/main/res/layout/fragment_blank_login.xml" value="0.2" />
         <entry key="..\:/Users/sampc/Downloads/appMySQL/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
         <entry key="..\:/Users/sampc/Downloads/appMySQL/app/src/main/res/drawable/ic_save.xml" value="0.1" />
         <entry key="..\:/Users/sampc/Downloads/appMySQL/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
@@ -29,22 +30,6 @@
         <entry key="..\:/Users/sampc/Downloads/appMySQL/app/src/main/res/menu/activity_main_drawer.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/sampc/Downloads/appMySQL/app/src/main/res/menu/main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/sampc/Downloads/appMySQL/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
-        <entry key="..\:/appMySQL/app/src/main/res/drawable/ic_close.xml" value="0.1055" />
-        <entry key="..\:/appMySQL/app/src/main/res/drawable/ic_key.xml" value="0.1055" />
-        <entry key="..\:/appMySQL/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1025" />
-        <entry key="..\:/appMySQL/app/src/main/res/drawable/ic_otro.xml" value="0.1025" />
-        <entry key="..\:/appMySQL/app/src/main/res/drawable/ic_people.xml" value="0.1055" />
-        <entry key="..\:/appMySQL/app/src/main/res/drawable/ic_productos.xml" value="0.1025" />
-        <entry key="..\:/appMySQL/app/src/main/res/drawable/side_nav_bar.xml" value="0.1055" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/app_bar_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/content_main.xml" value="0.2" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/fragment_blank_login.xml" value="0.20416666666666666" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/fragment_categorias.xml" value="0.20416666666666666" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/fragment_productos.xml" value="0.20416666666666666" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/fragment_q_categorias.xml" value="0.20416666666666666" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/fragment_qproductos.xml" value="0.20416666666666666" />
-        <entry key="..\:/appMySQL/app/src/main/res/layout/fragment_slideshow.xml" value="0.2" />
       </map>
     </option>
   </component>
