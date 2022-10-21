@@ -64,7 +64,7 @@ public class Qproductos extends Fragment {
         etunidad = root.findViewById(R.id.etunidadpro);
         fecha = root.findViewById(R.id.fecapro);
         estadoproducto = root.findViewById(R.id.estadopro);
-        /*etcategoria = root.findViewById(R.id.sp_fk_categoria);*/
+        etcategoria = root.findViewById(R.id.sp_fk_categoria);
         btncon = root.findViewById(R.id.btnconp);
         btnelimi = root.findViewById(R.id.btnelimi);
         btnactu = root.findViewById(R.id.btnactua);
@@ -90,7 +90,7 @@ public class Qproductos extends Fragment {
             @Override
             public void onClick(View view) {
                 //String idcategoria = etid.getText().toString();
-                buscarPro("https://carlosminerosis11a.000webhostapp.com/ws/buscarArticulos.php?id="+etidproducto.getText()+"");
+                buscarPro("https://manse910.000webhostapp.com/WS/buscarArticulos.php?id="+etidproducto.getText()+"");
 
             }
         }));
@@ -181,7 +181,7 @@ public class Qproductos extends Fragment {
 
     private void EliminarPro(final Context context, final int id_producto) {
 
-        String url = "https://carlosminerosis11a.000webhostapp.com/ws/eliminarProducto.php";
+        String url = "https://manse910.000webhostapp.com/WS/eliminarProducto.php";
         StringRequest request = new StringRequest(Request.Method.POST,url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
