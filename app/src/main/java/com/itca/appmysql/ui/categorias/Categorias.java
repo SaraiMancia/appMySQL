@@ -120,7 +120,7 @@ public class Categorias extends Fragment {
 
     public void recibirJson(final Context context, int idcategoria){
 
-        String url = "https://carlosminerosis11a.000webhostapp.com/ws/buscarArticulosCodigo.php";
+        String url = "https://manse910.000webhostapp.com/WS/buscarArticulos.php";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
@@ -156,7 +156,7 @@ public class Categorias extends Fragment {
 
 
     private void guardarcategoria(final Context context, final int id_categoria, final String nom_categoria, final int estado_categoria) {
-        String url = "https://carlosminerosis11a.000webhostapp.com/ws/guardar.php";
+        String url ="https://manse910.000webhostapp.com/WS/guardar%20(1).php";
         StringRequest request = new StringRequest(Request.Method.POST,url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
